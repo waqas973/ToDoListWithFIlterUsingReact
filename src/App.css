@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,14 +22,16 @@
     justify-content: center;
     align-items: center;
   }
-
+  
   form input,form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
     background: white;
   }
-
+  form input{
+    font-weight: 200;
+     }
   form button {
     color: #ff6f47;
     background: #f7fffe;
@@ -39,7 +42,11 @@
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
 }
-
+form input:hover , form input:focus {
+ outline: none;
+ border: none;
+ box-shadow: none;
+}
   form button:hover {
     background: #ff6f47;
     color: white;
@@ -100,7 +107,7 @@
   .fa-check {
     pointer-events: none;
   }
-/*  
+ 
   .fall {
     transform: translateY(10rem) rotateZ(20deg);
     opacity: 0;
@@ -108,8 +115,9 @@
     -moz-transform: translateY(10rem) rotateZ(20deg);
     -ms-transform: translateY(10rem) rotateZ(20deg);
     -o-transform: translateY(10rem) rotateZ(20deg);
+    -webkit-transform: translateY(10rem) rotateZ(20deg);
 }
-  */
+ 
   .completed {
     text-decoration: line-through;
     opacity: 0.5;

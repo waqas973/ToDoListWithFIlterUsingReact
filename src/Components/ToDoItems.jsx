@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const  ToDoItems = (props)=> {
-  
+
     const deleteHandler = ()=>{
         props.setTodos(
             props.Todos.filter((item)=>{
                   return    props.Todo.id !== item.id
             })
         ) 
+               
     }
  const completeHandler = ()=>{
      props.setTodos(
@@ -23,11 +24,11 @@ const  ToDoItems = (props)=> {
      )}
     return (
         <div className="todo">
-            <li className={`todo-item  ${props.Todo.completed ? "completed" : ""}`}>{props.item}</li>
+            <li className={`todo-item   ${props.Todo.completed ? "completed" : ""}`}>{props.item}</li>
             <button className="complete-btn" onClick={completeHandler}>
                 <i className="fas fa-check"></i>
             </button>
-            <button className="trash-btn" onClick={deleteHandler}>
+            <button className="trash-btn " onClick={deleteHandler}>
                 <i className="fas fa-trash"></i>
             </button>
         </div>
