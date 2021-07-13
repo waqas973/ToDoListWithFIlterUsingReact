@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/.github.io/ToDoListWithFIlterUsingReact/static/css/main.b5f5050c.chunk.css",
+    "main.js": "/.github.io/ToDoListWithFIlterUsingReact/static/js/main.ced329cc.chunk.js",
+    "main.js.map": "/.github.io/ToDoListWithFIlterUsingReact/static/js/main.ced329cc.chunk.js.map",
+    "runtime-main.js": "/.github.io/ToDoListWithFIlterUsingReact/static/js/runtime-main.01beec91.js",
+    "runtime-main.js.map": "/.github.io/ToDoListWithFIlterUsingReact/static/js/runtime-main.01beec91.js.map",
+    "static/js/2.d78503a9.chunk.js": "/.github.io/ToDoListWithFIlterUsingReact/static/js/2.d78503a9.chunk.js",
+    "static/js/2.d78503a9.chunk.js.map": "/.github.io/ToDoListWithFIlterUsingReact/static/js/2.d78503a9.chunk.js.map",
+    "index.html": "/.github.io/ToDoListWithFIlterUsingReact/index.html",
+    "static/css/main.b5f5050c.chunk.css.map": "/.github.io/ToDoListWithFIlterUsingReact/static/css/main.b5f5050c.chunk.css.map",
+    "static/js/2.d78503a9.chunk.js.LICENSE.txt": "/.github.io/ToDoListWithFIlterUsingReact/static/js/2.d78503a9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01beec91.js",
+    "static/js/2.d78503a9.chunk.js",
+    "static/css/main.b5f5050c.chunk.css",
+    "static/js/main.ced329cc.chunk.js"
+  ]
+}
